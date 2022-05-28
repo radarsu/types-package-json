@@ -22,6 +22,7 @@ export interface IPackageJson {
     files?: string[];
     main?: string;
     browser?: string;
+    types?: string;
     bin?: Record<string, string>;
     man?: string;
     directories?: {
